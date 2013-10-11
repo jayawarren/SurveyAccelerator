@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.1600.1</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Survey Accelerator.database</Name>
+    <FullPath>Survey Accelerator.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources>
+    <ProjectItem>
+      <Name>Seer STG.ds</Name>
+      <FullPath>Seer STG.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Seer CTRL.ds</Name>
+      <FullPath>Seer CTRL.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Seer MDM.ds</Name>
+      <FullPath>Seer MDM.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Seer ODS.ds</Name>
+      <FullPath>Seer ODS.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Seer STG</Id>
+            <Name>Seer STG</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=SEERSCROD;Integrated Security=SSPI;Initial Catalog=Seer_STG</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer CTRL</Id>
+            <Name>Seer CTRL</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=SEERSCROD;Integrated Security=SSPI;Initial Catalog=Seer_CTRL</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer MDM</Id>
+            <Name>Seer MDM</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=SEERSCROD;Integrated Security=SSPI;Initial Catalog=Seer_MDM</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer ODS</Id>
+            <Name>Seer ODS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=SEERSCROD;Integrated Security=SSPI;Initial Catalog=Seer_ODS</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Seer STG</Id>
+            <Name>Seer STG</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer CTRL</Id>
+            <Name>Seer CTRL</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer MDM</Id>
+            <Name>Seer MDM</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Seer ODS</Id>
+            <Name>Seer ODS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>01 Staging - Organization.dtsx</Name>
+      <FullPath>01 Staging - Organization.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>02 Staging - Product.dtsx</Name>
+      <FullPath>02 Staging - Product.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>03 Staging - Product Categories.dtsx</Name>
+      <FullPath>03 Staging - Product Categories.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>04 Staging - Program Group.dtsx</Name>
+      <FullPath>04 Staging - Program Group.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>05 Staging - Survey Categories.dtsx</Name>
+      <FullPath>05 Staging - Survey Categories.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>06 Staging - Survey Forms.dtsx</Name>
+      <FullPath>06 Staging - Survey Forms.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>07 Staging - Survey Questions.dtsx</Name>
+      <FullPath>07 Staging - Survey Questions.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>08 Staging - Survey Responses.dtsx</Name>
+      <FullPath>08 Staging - Survey Responses.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>09 Staging - Observation Data.dtsx</Name>
+      <FullPath>09 Staging - Observation Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>10 Staging - Batch.dtsx</Name>
+      <FullPath>10 Staging - Batch.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>11 Staging - Member Data.dtsx</Name>
+      <FullPath>11 Staging - Member Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>12 Staging - Member.dtsx</Name>
+      <FullPath>12 Staging - Member.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>13 Staging - Member Response Data.dtsx</Name>
+      <FullPath>13 Staging - Member Response Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>14 Staging - Member Aggregated Data.dtsx</Name>
+      <FullPath>14 Staging - Member Aggregated Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>15 Staging - Staff Response Data.dtsx</Name>
+      <FullPath>15 Staging - Staff Response Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>16 Staging - Staff Aggregated Data.dtsx</Name>
+      <FullPath>16 Staging - Staff Aggregated Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>17 Staging - Program Response Data.dtsx</Name>
+      <FullPath>17 Staging - Program Response Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>18 Staging - Program Aggregated Data.dtsx</Name>
+      <FullPath>18 Staging - Program Aggregated Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>19 Staging - New Member Response Data.dtsx</Name>
+      <FullPath>19 Staging - New Member Response Data.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>20 Base - MDM.dtsx</Name>
+      <FullPath>20 Base - MDM.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>21 Base - ODS and MDM Map.dtsx</Name>
+      <FullPath>21 Base - ODS and MDM Map.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>22 Legacy - ODS Response.dtsx</Name>
+      <FullPath>22 Legacy - ODS Response.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>23 Legacy - ODS Report.dtsx</Name>
+      <FullPath>23 Legacy - ODS Report.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>24 Legacy - ODS Dashboard.dtsx</Name>
+      <FullPath>24 Legacy - ODS Dashboard.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>99 Package - Stub.dtsx</Name>
+      <FullPath>99 Package - Stub.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Master Survey Accelerator.dtsx</Name>
+      <FullPath>Master Survey Accelerator.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>
